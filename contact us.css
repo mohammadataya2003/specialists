@@ -1,0 +1,103 @@
+﻿
+.image{
+    width:100%; 
+}
+.contact_w_amins{
+    text-align:center;
+    font-size:24px;
+
+}
+.accounting_srevices {
+    margin-top:12%;
+    text-align:center;
+    width: auto;
+    background: linear-gradient(to right , #091653e0,#44a869);
+    margin-right:100px;
+    margin-left:100px;
+    border-radius:25px;
+    height:170px;
+}
+.tec_services{
+    margin-top:3%;
+    text-align:center;
+    width: auto;
+    background: linear-gradient(to right , #091653e0,#44a869);
+    margin-right:100px;
+    margin-left:100px;
+    border-radius:25px;
+    height:170px;
+}
+.Admin_services{
+    margin-top:3%;
+    text-align:center;
+    width: auto;
+    border-radius:25px;
+    background: linear-gradient(to right , #091653e0,#44a869);
+    margin-right:100px;
+    margin-left:100px;
+    height:170px;
+}
+
+.cont{
+    width:100%;
+    height:25%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:14%;
+}
+.message_card{
+    width:400px;
+    height:30vh;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    z-index:1;
+}  
+.message_card::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:rgba(255,255,255,0.15);
+    z-index:-1;
+}
+.message_card img{
+    margin-bottom:15px;   
+}
+/*.message_card h1{
+    text-align:center;
+    margin-bottom:15px;
+    color:red;
+}*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input, textarea {
+        border: 0;
+        outline: none;
+        margin: 10px 0;
+        padding: 20px;
+        border-radius: 8px;
+        background: rgba(255,255,255,0.5);
+        width: 350px;
+        border:outset;
+ }
+form button{
+    padding:15px;
+    background:linear-gradient(to left,#0c315b,#e73737);
+    border:none;
+    font-size:18px;
+    border-radius:20px;
+    cursor:pointer;
+    outline:none;
+    width:150px;
+    color:white;
+
+
+

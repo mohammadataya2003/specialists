@@ -1,0 +1,61 @@
+﻿
+body{
+    direction:rtl;
+    background-color:#ad6565e6;
+}
+.logo{
+    width:100%;
+}
+.title{
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+.our_message{ 
+    
+    text-align:center;
+    background-color:#760747ed;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    height:130px;
+    border-radius:30px;
+    margin-top:5%;
+    margin-right:25%;
+    margin-left:25%;
+    padding-top:2%;
+    font-size:25px;
+    font-weight:bold;
+}
+.our_services{
+    width:70%;
+    background-color:#760747ed; 
+    margin-right:15%;
+    margin-left:25%;
+    margin-top:8%;
+    border-radius:30px;
+    height:400px;  
+    padding-top:4px;
+}
+
+li{
+    margin-right:5%;
+    font-size:25px;
+}
+.pro{
+    margin-top:9%;
+    text-align:center;
+    background-color:#760747ed;
+    width:30%;
+    margin-left:35%;
+    margin-right:35%;
+    border-radius:30px;
+    font-size:25px;
+}
+.footer{
+    padding-top:4px;
+    background-color:#760747ed; 
+    text-align:center;
+    margin-top:298px;
+}
+
